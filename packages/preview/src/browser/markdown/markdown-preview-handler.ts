@@ -223,8 +223,7 @@ export class MarkdownPreviewHandler implements PreviewHandler {
                         try {
                             return '<pre class="hljs"><code><div>' + hljs.highlight(lang, str, true).value + '</div></code></pre>';
                         } catch { }
-                    }
-                    else if (lang == "pmans") {
+                    } else if (lang === 'pmans') {
                         try {
                             return '<pre class="pmans-render"><code>' + pmans.render(str) + '</code></pre>';
                         } catch { }

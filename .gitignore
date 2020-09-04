@@ -1,5 +1,7 @@
 .DS_Store
 node_modules
+src-gen
+webpack.config.js
 build
 lib
 *.log

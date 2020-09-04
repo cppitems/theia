@@ -34,13 +34,11 @@
  * licensed under the BSD-3-Clause. See https://github.com/highlightjs/highlight.js/blob/master/LICENSE
  */
 
-/* Tomorrow Comment */
-.theia-preview-widget .hljs-comment,
+/* .theia-preview-widget .hljs-comment,
 .theia-preview-widget .hljs-quote {
-	color: #8e908c;
+  color: #8e908c;
 }
 
-/* Tomorrow Red */
 .theia-preview-widget .hljs-variable,
 .theia-preview-widget .hljs-template-variable,
 .theia-preview-widget .hljs-tag,
@@ -49,10 +47,9 @@
 .theia-preview-widget .hljs-selector-class,
 .theia-preview-widget .hljs-regexp,
 .theia-preview-widget .hljs-deletion {
-	color: #c82829;
+  color: #c82829;
 }
 
-/* Tomorrow Orange */
 .theia-preview-widget .hljs-number,
 .theia-preview-widget .hljs-built_in,
 .theia-preview-widget .hljs-builtin-name,
@@ -61,45 +58,100 @@
 .theia-preview-widget .hljs-params,
 .theia-preview-widget .hljs-meta,
 .theia-preview-widget .hljs-link {
-	color: #f5871f;
+  color: #f5871f;
 }
 
-/* Tomorrow Yellow */
 .theia-preview-widget .hljs-attribute {
-	color: #eab700;
+  color: #eab700;
 }
 
-/* Tomorrow Green */
 .theia-preview-widget .hljs-string,
 .theia-preview-widget .hljs-symbol,
 .theia-preview-widget .hljs-bullet,
 .theia-preview-widget .hljs-addition {
-	color: #718c00;
+  color: #718c00;
 }
 
-/* Tomorrow Blue */
 .theia-preview-widget .hljs-title,
 .theia-preview-widget .hljs-section {
-	color: #4271ae;
+  color: #4271ae;
 }
 
-/* Tomorrow Purple */
 .theia-preview-widget .hljs-keyword,
 .theia-preview-widget .hljs-selector-tag {
-	color: #8959a8;
+  color: #8959a8;
 }
 
 .theia-preview-widget .hljs {
-	display: block;
-	overflow-x: auto;
-	color: #4d4d4c;
-	padding: 0.5em;
+  display: block;
+  overflow-x: auto;
+  color: #4d4d4c;
+  padding: 0em;
 }
 
 .theia-preview-widget .hljs-emphasis {
-	font-style: italic;
+  font-style: italic;
 }
 
 .theia-preview-widget .hljs-strong {
-	font-weight: bold;
+  font-weight: bold;
+} */
+
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0em;
+  background: #eaeef3;
+  color: #00193a;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: #738191;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-addition,
+.hljs-tag,
+.hljs-quote,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #0048ab;
+}
+
+.hljs-meta,
+.hljs-subst,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-attribute,
+.hljs-deletion,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-bullet {
+  color: #4c81c9;
+}
+
+.hljs-emphasis {
+  font-style: italic;
 }

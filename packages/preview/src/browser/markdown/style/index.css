@@ -14,5 +14,6 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  ********************************************************************************/
 
-@import './markdown.css';
-@import './tomorrow.css';
+@import "./markdown.css";
+@import "./tomorrow.css";
+@import "./pmans-render.css";

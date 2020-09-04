@@ -28,7 +28,7 @@ import { PreviewUri } from '../preview-uri';
 import { PreviewHandler, RenderContentParams } from '../preview-handler';
 import { PreviewOpenerOptions } from '../preview-contribution';
 import { PreviewLinkNormalizer } from '../preview-link-normalizer';
-
+import * as pmans from './pmans-render';
 @injectable()
 export class MarkdownPreviewHandler implements PreviewHandler {
 
@@ -222,6 +222,11 @@ export class MarkdownPreviewHandler implements PreviewHandler {
                     if (lang && hljs.getLanguage(lang)) {
                         try {
                             return '<pre class="hljs"><code><div>' + hljs.highlight(lang, str, true).value + '</div></code></pre>';
+                        } catch { }
+                    }
+                    else if (lang == "pmans") {
+                        try {
+                            return '<pre class="pmans-render"><code>' + pmans.render(str) + '</code></pre>';
                         } catch { }
                     }
                     return '<pre class="hljs"><code><div>' + engine.utils.escapeHtml(str) + '</div></code></pre>';

@@ -6,6 +6,9 @@
     "outDir": "lib",
     "baseUrl": "."
   },
+  "files": [
+    "src/browser/markdown/pmans-render.ts"
+  ],
   "include": [
     "src"
   ],

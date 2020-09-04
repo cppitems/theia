@@ -2,8 +2,10 @@
 
 ### developing
 
+0. install node and yarn
+
 1. checkout
-2. build
+1. build
 
 ```bash
 # in root dir

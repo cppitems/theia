@@ -7,10 +7,10 @@
   font-size: 16px;
   line-height: 18px;
 }
-.theia-light .markdown-preview pre.pmans-render code {
+.markdown-preview pre.pmans-render code {
   color: #2825ab;
 }
-.theia-light .markdown-preview pre.pmans-render {
+.markdown-preview pre.pmans-render {
   background-color: #ffffff;
   padding: 0px;
   font-size: 100%;
@@ -18,12 +18,12 @@
 .pmans-comment {
   color: #986232;
 }
-.theia-light .markdown-preview pre .pmans-filename {
+.markdown-preview pre .pmans-filename {
   color: black;
   background-color: #cfcfcf;
   font-size: 90%;
 }
-.theia-light .markdown-preview pre .pmans-compile {
+.markdown-preview pre .pmans-compile {
   color: grey;
   background-color: #ebebeb;
   font-size: 90%;

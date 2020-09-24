@@ -9,6 +9,7 @@
 }
 .markdown-preview pre.pmans-render code {
   color: #2825ab;
+  display: inline-block;
 }
 .markdown-preview pre.pmans-render {
   background-color: #ffffff;
